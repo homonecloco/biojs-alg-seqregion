@@ -1,0 +1,1 @@
+biojsalgseqregion = require('./index');
