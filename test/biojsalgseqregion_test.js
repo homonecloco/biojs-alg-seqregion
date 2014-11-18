@@ -13,7 +13,7 @@ chai.should();
 var biojsalgseqregion = require('../lib/biojsalgseqregion.js');
 
 describe('biojs-alg-seqregion module', function(){
-  describe('#parse_bam_region()', function(){
+  describe('#parse_seq_region()', function(){
     it('should a region', function(){
       var reg = biojsalgseqregion.parse_seq_region("Sequence:10-200");
       reg.entry.should.equal("Sequence");
