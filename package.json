@@ -1,7 +1,7 @@
 {
   "name": "biojs-alg-seqregion",
   "description": "Object and function to deals with a sequence region (reg:start-end)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/homonecloco/biojs-alg-seqregion",
   "author": {
     "name": "Ricardo H. Ramirez-Gonzalez",
@@ -24,8 +24,8 @@
   "scripts": {
     "test": "gulp test",
     "build-browser": "mkdirp build; browserify browser.js -o build/biojs-alg-seqregion.js",
-	"build-browser-min": "gulp build-browser-gzip",
-	"prepublish": "gulp",
+    "build-browser-min": "gulp build-browser-gzip",
+    "prepublish": "gulp",
     "watch": "mkdirp build; watchify browser.js -o build/biojs-alg-seqregion.js"
   },
   "dependencies": {},
@@ -46,5 +46,11 @@
     "uglify-js": "~2.4.15",
     "watchify": "^1.0.2"
   },
-  "keywords": ["biojs","sequence"," algorithim"," region"," samtools"]
+  "keywords": [
+    "biojs",
+    "sequence",
+    " algorithim",
+    " region",
+    " samtools"
+  ]
 }
